@@ -1,0 +1,9 @@
+[project]
+name = "ecommerce-usage-receipts"
+version = "0.1.0"
+description = "Per-customer e-commerce usage receipts reconciled with Infrai account usage."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
